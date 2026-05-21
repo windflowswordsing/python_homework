@@ -304,7 +304,7 @@ def main():
         ]
         print(f"使用的特征: {', '.join(top_10_features)}")
     
-    data_path = "/workspace/方案/StudentPerformanceFactors .csv"
+    data_path = "./StudentPerformanceFactors .csv"
     X, y, feature_names, scaler = load_and_preprocess_data(data_path, top_10_features)
     
     print(f"\n数据加载完成:")

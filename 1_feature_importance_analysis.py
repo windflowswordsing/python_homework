@@ -248,7 +248,7 @@ def main():
     print("学生成绩预测 - 特征重要性分析".center(100))
     print("="*100)
     
-    data_path = "/workspace/方案/StudentPerformanceFactors .csv"
+    data_path = "./StudentPerformanceFactors .csv"
     
     X, y, feature_names = load_and_preprocess_data(data_path)
     
